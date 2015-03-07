@@ -1,7 +1,14 @@
 var React = require('react/addons');
 var ReactPIXI = require('react-pixi');
 
+if (typeof ejecta !== 'undefined') {
+  ReactPIXI.Stage.type.prototype.getDOMNode = function() {
+    return window.canvas;
+  }
+};
+
 var Stage = ReactPIXI.Stage;
+
 var Sprite = ReactPIXI.Sprite;
 var Text = ReactPIXI.Text;
 

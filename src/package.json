@@ -18,7 +18,6 @@
     "gulp-useref": "~0.4.4",
     "gulp-util": "~3.0.1",
     "gulp-webserver": "latest",
-    "pixi": "^0.2.1",
     "pixi.js": "^2.2.7",
     "react": "^0.12.2",
     "reactify": "latest",
@@ -39,10 +38,6 @@
       ]
     ]
   },
-  "browser": {
-    "jquery": "./app/bower_components/jquery/dist/jquery.js"
-  },
   "browserify-shim": {
-    "jquery": "$"
   }
 }
