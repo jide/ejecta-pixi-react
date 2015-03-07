@@ -52,13 +52,7 @@ gulp.task('scripts', function () {
 // Images
 gulp.task('images', function () {
     return gulp.src('./images/**/*')
-        .pipe($.cache($.imagemin({
-            optimizationLevel: 3,
-            progressive: true,
-            interlaced: true
-        })))
         .pipe(gulp.dest('../App/images'))
-        .pipe($.size());
 });
 
 // Webserver
