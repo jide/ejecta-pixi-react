@@ -5,7 +5,6 @@
   "devDependencies": {
     "browserify-shim": "^3.8.0",
     "del": "~0.1.3",
-    "gsap": "^1.16.0",
     "gulp": "~3.8.8",
     "gulp-autoprefixer": "~1.0.1",
     "gulp-bower": "0.0.6",
@@ -18,9 +17,9 @@
     "gulp-useref": "~0.4.4",
     "gulp-util": "~3.0.1",
     "gulp-webserver": "latest",
+    "pixi.js": "^2.2.7",
     "react": "^0.12.2",
     "react-pixi": "latest",
-    "pixi.js": "^2.2.7",
     "reactify": "latest",
     "vinyl-source-stream": "^1.0.0",
     "watchify": "~2.1"
@@ -39,6 +38,5 @@
       ]
     ]
   },
-  "browserify-shim": {
-  }
+  "browserify-shim": {}
 }
